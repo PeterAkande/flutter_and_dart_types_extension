@@ -1,10 +1,10 @@
 name: flutter_n_dart_types_extensions
-description: Extensions i use in my flutter developement process
-version: 0.0.2
+description: Useful Dart Extensions
+version: 0.0.3
 homepage:
 
 environment:
-  sdk: '>=2.19.0 <3.0.0'
+  sdk: '>=2.19.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
