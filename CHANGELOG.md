@@ -9,3 +9,7 @@
 ## 0.0.3
 
 - Add Additional Extensions
+
+## 0.0.4
+
+- Fix Password RegExp

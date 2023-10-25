@@ -1,4 +1,4 @@
 # Welcome!
 
-### This is a catalog of some extensions i use on some given flutter types..
+### This is a catalog of some Useful Dart Extensions.
 ### Enjoy Fluttering!

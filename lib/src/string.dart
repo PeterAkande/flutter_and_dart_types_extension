@@ -3,7 +3,7 @@ extension StringExtension on String {
   static final nameRegExp =
       RegExp(r"^\s*([A-Za-z]{1,}([\.,] |[-']| ))+[A-Za-z]+\.?\s*$");
   static final passwordRegExp = RegExp(
-      r"^(?=.*?[A-Z])(?=.*?[a-z])(?=.*[0-9])(?=.*?[!@#\><*~]).{8,}/pre>");
+      r"^(?=(.*[a-z]){1,})(?=(.*[A-Z]){1,})(?=(.*[0-9]){2,})(?=(.*[!@#$%^&*()\-__+.]){1,}).{8,}$");
   static final phoneNumberRegExp = RegExp(r"^\+?0[0-9]{10}$");
 
   static final urlRegExp = RegExp(
